@@ -1,14 +1,14 @@
- class rectangle {
+
+export class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+
+  checkType() {
+    return this.height * this.width;
+  }
 
 
-    constructor(height, width) {
-      this.height = height;
-      this.width = width;
-    }
-    checkArea(height,width) {
-      return height * width
-    }
-  };
-  
-  
-  
+};
+// };
