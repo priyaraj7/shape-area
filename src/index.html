@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-
+  <head>
     <title>Shape-Area</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <form id="rectangle">
-            <label for="goal">Enter hight and width of the rectangle</label><br>
-            <input id="goal" type="number"><br>
-            <input id="goal" type="number"><br>
-            <button type="submit">Submit to calculate the area</button>
-        </form>
-        <ul id="solution"></ul>
+      <div class="jumbotron"> <h1>Find the Area of the Shapes</h1> </div>
+      <!-- rectangle -->
+      <form id="rectangle">
+        <label for="goal">Calculate the Area of Rectangle</label><br />
+        <input id="height" type="number" placeholder="Enter the height"/>
+        <input id="width" type="number" placeholder="Enter the width"/><br /><br />
+        <button type="submit">Lets calculate the area </button>
+      </form>
+      <ul id="solution"></ul>
+      <!-- circle -->
+      <form id="circle">
+        <label for="goal">Calculate the Area of Circle</label><br />
+        <input id="radius" type="number" placeholder="Enter the radius"/><br /><br />
+        <button type="submit">Lets calculate the area </button>
+      </form>
+      <ul id="solution1"></ul>
+      <!-- Traingle -->
+      <form id="triangle">
+        <label for="goal">Calculate the Area of Triangle</label><br />
+        <input id="height1" type="number" placeholder="Enter the height"/>
+        <input id="base" type="number" placeholder="Enter the base"/><br /><br />
+        <button type="submit">Lets calculate the area </button>
+      </form>
+      <ul id="solution2"></ul>
     </div>
-</body>
-
+  </body>
 </html>
