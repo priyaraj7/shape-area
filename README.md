@@ -8,7 +8,6 @@
 
 This application calculates area of different shapes.
 
-To see this webpage [click here](https://priyaraj7.github.io/shape-area/dist/).
 
 ## Installation Requirements
 
